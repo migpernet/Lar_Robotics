@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hands_solid
-  m_Shader: {fileID: 10765, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: e51b4af1e50be764e8de46e07d4e3f3f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -60,11 +60,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailBump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -77,6 +85,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -113,6 +125,7 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _ApertureSize: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -124,6 +137,8 @@ Material:
     - _DstBlendAlpha: 0
     - _FadeEnd: 0.5
     - _FadeStart: 0.5
+    - _FeatheringEffect: 0
+    - _Focus: -100
     - _Fresnel: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -138,7 +153,7 @@ Material:
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Shininess: 0.698
+    - _Shininess: 0.75
     - _Smoothness: 0.423
     - _SmoothnessSource: 1
     - _SmoothnessTextureChannel: 0
@@ -151,6 +166,7 @@ Material:
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
+    - _Strength: 0.2
     - _Surface: 0
     - _Thickness: 0.5
     - _UVSec: 0
@@ -159,12 +175,14 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.28301886, g: 0.7110126, b: 1, a: 0.423}
-    - _Color: {r: 0.28301883, g: 0.7110126, b: 1, a: 0.423}
+    - _Color: {r: 0.2830188, g: 0.7110126, b: 1, a: 0.95686275}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MyColor: {r: 0.87058824, g: 0.87058824, b: 0.87058824, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectColor: {r: 1, g: 0, b: 0, a: 0.5019608}
     - _SpecColor: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 1}
-    - _Specular: {r: 0, g: 0, b: 0, a: 0}
+    - _Specular: {r: 0.28235295, g: 0.70980394, b: 1, a: 0}
     - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _VignetteColor: {r: 0.15294118, g: 0.21176471, b: 0.7176471, a: 1}
+    - _VignetteColorBlend: {r: 0.22368567, g: 0.5800402, b: 0.81761, a: 1}
   m_BuildTextureStacks: []
